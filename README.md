@@ -1,27 +1,30 @@
 
   # DAO Proposal Management Platform
 
-  This repository contains the source for the DAO Proposal Management Platform. The original design is available at https://www.figma.com/design/j2WjHBdlHGh3j3Oxke4IIt/DAO-Proposal-Management-Platform.
 
-  ## Stack principal (resumen sencillo)
+  The application is deployed at:
 
-  - Lenguaje: TypeScript
+  https://upbeat-port-70496397.figma.site/dashboard
+
+  ## Main stack (short)
+
+  - Language: TypeScript
   - UI: React 18
-  - Bundler / dev server: Vite (con @vitejs/plugin-react-swc)
-  - Estilos: Tailwind CSS
-  - Otras librerías destacadas: Radix UI, lucide-react (iconos), recharts (gráficos), embla-carousel-react
+  - Bundler / dev server: Vite (with @vitejs/plugin-react-swc)
+  - Styling: Tailwind CSS
+  - Notable libraries: Radix UI, lucide-react (icons), recharts (charts), embla-carousel-react
 
-  ## Comandos rápidos
+  ## Quick commands
 
-  En la raíz del proyecto (donde está `package.json`):
+  Run these from the project root (where `package.json` is located):
 
   ```bash
-  npm install      # instala dependencias
-  npm run dev      # arranca el servidor de desarrollo (Vite)
-  npm run build    # construye la versión de producción
+  npm install      # install dependencies
+  npm run dev      # start development server (Vite)
+  npm run build    # build production bundle
   ```
 
-  Nota: se recomienda Node 16+ (Node 18 recomendado). Si preferís `pnpm` o `yarn`, podés usarlos en lugar de `npm`.
+  Note: Node 16+ is recommended (Node 18 preferred). You can also use `pnpm` or `yarn` instead of `npm` if you prefer.
 
-  Más detalles (dependencias y configuración) están en `package.json` y `vite.config.ts`.
+  See `package.json` and `vite.config.ts` for dependency and configuration details.
   
